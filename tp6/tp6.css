@@ -1,0 +1,230 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto', sans-serif;
+    
+    }
+body{
+   background-color: rgb(8, 8, 8);
+
+}
+.navbar-brand > img {
+     max-height: 50px; 
+    }
+
+.navbar .navbar-nav .nav-item{
+        padding-right:3.5rem ;
+     
+      }  
+      /* this method didn't work to me so I use nth-child(n)*/ 
+/* .navbar .navbar-nav .nav-item a{
+         font-size: 1.05rem ;
+         font-weight: 800;
+         color: rgb(253, 252, 251);
+      
+       }     */
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+
+   font-size: 1.05rem ;
+   font-weight: 800;
+   color: rgb(253, 252, 251);
+
+
+}      
+.navbar-nav .btn{
+         border: none; /*elimine border*/
+         padding: 0.1rem 1.7rem;
+         font-weight: 800;
+         font-size: 1rem;
+         border-radius:2rem;
+          background-color: rgb(39, 59, 51); 
+         color: rgb(253, 253, 253);
+   
+      }
+.mid p{
+   width: 60%;
+   font-size: 1.4rem;
+   font-weight: 400;
+   color: white;
+   word-spacing: .1rem;
+} 
+
+.mid h1 span{
+
+   color:  rgb(39, 59, 51);
+} 
+
+.mid .row {
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      
+
+}
+
+.mid .row button{
+   border: none; /*elimine border*/
+   padding: 0.7rem 2rem;
+   font-weight: 800;
+   font-size: 1rem;
+   border-radius:2rem;
+    background-color: rgb(39, 59, 51); 
+   color: rgb(253, 253, 253);
+   margin: 0 0.6rem; /* to make spacebetween button */
+}
+
+.mid .row button:nth-child(2){
+   
+    background-color: rgb(60, 121, 96); 
+}
+body > header > div > h1.text2{
+
+   font-size: 3rem;
+   font-weight: 900;
+  color: rgb(255, 255, 255);   
+}
+
+
+.mid .p{
+    font-size: 1rem;
+    font-weight: 400;
+   color: rgb(255, 255, 255);
+}
+
+.about .row .text3{
+  
+   font-size: 1.1rem;
+   color: white;
+  
+   
+   
+}
+.about .row .img{
+   justify-content: center;
+   max-height: 100px;
+   padding-left: 0.9rem;
+}
+
+.about  .row .one .te{
+   color: white;
+   font-weight: 700;
+}
+
+.documentation .t1{
+      font-size: 3rem;
+      color: white;
+      font-weight: 800;
+}
+
+.documentation .t2{
+   font-size: 1.1rem;
+   color: white;
+   
+}
+
+.documentation .line{
+   border-bottom: 1px solid rgb(117, 121, 117);
+  height: 5px;
+  
+
+}
+
+.documentation .row .c1 h4{
+    font-size: 2rem;
+    font-weight: 900;
+   color: white;
+}
+
+.documentation .row .c1 p{
+   font-size: 1rem;
+  color: white;
+}
+
+
+
+/* .customer .row .c1 {
+   border-radius: 5rem;
+   background-color: blue;
+   width: 4rem;
+   height: 4rem;
+  
+ } */
+ .customer h3{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+ }
+
+ .customer p{
+   
+
+   color: white;
+   word-spacing: .1rem;
+  }
+ 
+  .customer .row i{
+      color: white;
+   word-spacing: .1rem;
+  }
+
+  .customer .row p{
+   
+   font-size: 1.1rem;
+   color: white;
+   word-spacing: .1rem;
+  }
+
+
+  .customer .row div{
+   border-radius: .5rem;
+   background-color: rgb(20, 20, 20);
+  
+  }
+
+  .customer .row .line{
+   border-bottom: 2px solid rgb(209, 214, 209);
+  height: 2px;
+  
+
+}
+
+.customer .row h4{
+   
+   font-size: 1.1rem;
+   color: white;
+   word-spacing: .1rem;
+  }
+hr{
+   
+   background-color: rgb(173, 172, 172);
+  
+  }
+.sub  .row{
+   padding: 4rem 3.3rem;
+   background: rgb(45, 68, 40);
+
+}
+.sub  .row h2{
+  color:white;
+  font-size: 1.5rem;
+  font-weight: 900;
+
+   
+}
+
+.sub  .row input{
+  width: 30%;
+   border-style: none;
+   outline: none;
+ padding: 0.9rem 1rem;
+  border-radius: 2px;  
+ }

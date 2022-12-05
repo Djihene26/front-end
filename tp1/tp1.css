@@ -1,0 +1,316 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+#img1{
+
+	height:25px;
+	width:25px;
+	
+}
+body{
+	
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(90deg, rgba(217,214,255,1) 0%, rgba(238,215,227,1) 23%, rgba(251,251,251,1) 100%);
+
+}
+button{
+	font-family: 'Poppins', sans-serif;
+
+
+}
+header{
+	display:flex; /*make inline*/
+	/* background-color:lightblue; */
+	width:90%;
+	margin:auto;
+	height:10vh;
+	align-items:center;
+}
+.logo-container,
+.nav-links,
+.cart{
+	display:flex;
+	
+	
+	
+}
+.logo{
+	
+	font-weight:400;
+	margin:5px;
+	
+}
+.logo-container{
+	/* background-color:lightblue; */
+	filter:grayscale(100%); 
+	flex:1;
+	mix-blend-mode: multiply;
+	
+}
+#img2{
+ height: 110px;
+
+}
+
+nav{
+	/* background-color:lightpink; */
+	flex:2;
+	/*  */
+}
+.nav-links{
+	justify-content:space-around;/*space between element*/
+	list-style-type:none;
+}
+.nav-link{
+	
+	color:#312f33;
+	font-size:18px;
+	text-decoration:none;
+}
+.cart{
+	/* background-color:blue; */
+	flex:1;
+	justify-content:flex-end;
+}
+.presentation{
+display: flex;
+width: 90%;
+margin: auto;
+min-height: 80vh;
+align-items: center;
+height: 35vh;
+}
+.cover img{
+	/*make background transparent*/
+	mix-blend-mode: multiply;
+	height: 100%;
+	/*add shadow*/
+	/* box-shadow: 3px 3px 3px black; */
+	/*filter: drop-shadow(0px 3px 3px black);*/
+	animation: drop 1.5s ease;
+}
+.introduction{
+ /* background: lightblue; */
+ flex: 1;
+}
+.cover{
+ flex: 1;
+
+
+}
+.intro-text h1{
+    font-size: 44px;
+    font-weight:500px;
+    background: linear-gradient(to right, #494964, #6f6f89);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color:transparent;
+}
+.intro-text p{
+   margin-top: 5px;
+   font-size: 22px;
+   color: #585772;
+
+
+
+}
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-select{
+border: 2px solid #c473bc;
+background: transparent;
+color: #773a77;
+width: 150px;
+height: 50px;
+cursor: pointer;
+font-size: 16px;
+
+}
+.cta-add{
+ background: #c473bc;
+ width: 150px;
+height: 50px;
+cursor: pointer;
+font-size: 16px;
+border: none;
+color: azure;
+margin:30px 0px 0px 0px;
+}
+
+.laptop-select{
+  width: 15%;
+  display: flex;
+  justify-content:space-around ;
+  position: absolute;
+  right: 20%;
+}
+/*annimation*/
+@keyframes drop{
+  0% {
+    opacity: 0;
+	transform: translateY(-80px);
+
+
+  }
+ 100%{
+	 opacity: 1;
+	 transform: translateY(0px);
+ }
+}
+
+/*arrow*/
+
+@media screen and (max-width: 1024px) {
+	 /* body{
+          display: none;
+
+	 } */
+	 .presentation{
+		 flex-direction: column;
+	 }
+	 .introduction{
+		 margin-top: 5vh;
+		 text-align: center;
+	 }
+	 .intro-text h1{
+		 font-size: 30px;
+	 }
+	 .intro-text p{
+		 font-size: 18px;
+	 }
+	 .cta{
+		 padding: 10px 0px 0px 0px;
+	 }
+	 .laptop-select{
+		 bottom:5%;
+		 right: 50%;
+		 width: 50%;
+		 transform: translate(50%,5%);
+	 }
+	 .cover img{
+           height: 50%;
+	 }
+}
+
+/* * { */
+  /* box-sizing: border-box; */
+/* } */
+
+/* .header { */
+  /* border: 1px solid red; */
+  /* padding: 15px; */
+/* } */
+
+/* .menu { */
+  /* width: 25%; */
+  /* float: left; */
+  /* padding: 15px; */
+  /* border: 1px solid red; */
+/* } */
+
+/* .main { */
+  /* width: 75%; */
+  /* float: left; */
+  /* padding: 15px; */
+  /* border: 1px solid red; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{ */
+
+ /* background-image: linear-gradient(to right,#F5BBB5, #FFDFCD, #F2E7C2); */
+/* } */
+
+/* div{ */
+    /* font-size:50px; */
+    /* color:#111; */
+    /* text-align:center; */
+	/* font-family: "Times New Roman", Times, serif; */
+		
+	/* float:left; */
+	/* margin-top:250px; */
+	/* margin-right:30px; */
+/* } */
+
+/* .grid-container { */
+	
+
+   /* display: grid; */
+   /* /*justify-content: center;we use It just IN flex */
+	/* flex-direction: column;*/ 
+	/* display: inline-grid; */
+
+/* } */
+/* Button{ */
+	/* font-size:25px; */
+	/* font-family:Arial, Helvetica, sans-serif; */
+		/* text-align: center; */
+	/* border-radius: 50%; */
+	
+/* } */
+/* .c1{ */
+	/* margin:0px; */
+	
+	/* padding-top:40px; */
+	
+/* } */
+
+
+/* .btn{ */
+		/* font-size:20px; */
+	/* font-family: "Times New Roman", Times, serif; */
+	 /* text-align:center; */
+   
+	 /* color:black; */
+	/* border:9px; */
+	/* font-weight:300; */
+	/* border-radius:30px; */
+	
+/* } */
